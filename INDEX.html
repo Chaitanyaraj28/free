@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First Website</title>
+    <style>
+      body {
+        background-color: rgb(37, 179, 151);
+        color: rgba(95, 8, 8, 0.882);
+        font-family: Arial;
+        text-align: center;
+        padding-top: 100px;
+      }
+
+      h1 {
+        color: cyan;
+        font-size: 50px;
+      }
+
+      button {
+        background-color: cyan;
+        color: black;
+        padding: 12px 32px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Hello Namaste Duniya!</h1>
+    <button onclick="rangBadlo()">colour change</button>
+
+    <script>
+      function rangBadlo() {
+       document.getElementById('title').style.color = 'orange';
+        document.getElementById('title').style.color = 'blue';
+       // document.getElementById('title').style.color = 'green';
+      }
+    </script>
+  </body>
+</html>
